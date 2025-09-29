@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\MahasiswaController;
 use App\Http\Controllers\MatakuliahController;
+use App\Http\Controllers\HomeController;
 
 Route::get('/about', function () {
     return view('halaman-about');
@@ -38,10 +39,4 @@ Route::get('/matakuliah', function () {
 Route::get('/matakuliah', [MatakuliahController::class, 'index']);
 Route::get('/matakuliah/show/{kode?}', [MatakuliahController::class, 'show']);
 
-
-<<<<<<< HEAD
-
-//orang ocu ancakk
-=======
->>>>>>> parent of c0aa54e (ada perubahan)
-
+Route::get('/home', [HomeController::class, 'index']);
