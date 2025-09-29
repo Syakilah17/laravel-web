@@ -39,6 +39,9 @@ Route::get('/matakuliah', [MatakuliahController::class, 'index']);
 Route::get('/matakuliah/show/{kode?}', [MatakuliahController::class, 'show']);
 
 
+<<<<<<< HEAD
 
 //orang ocu ancakk
+=======
+>>>>>>> parent of c0aa54e (ada perubahan)
 
