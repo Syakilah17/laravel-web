@@ -40,3 +40,5 @@ Route::get('/matakuliah/show/{kode?}', [MatakuliahController::class, 'show']);
 
 //hahaha
 
+//orang ocu ancakk
+
